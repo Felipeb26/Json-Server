@@ -1,21 +1,24 @@
 {
-    "name": "backend",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "json-server --watch db.json --port 3001"
-    },
-    "keywords": [],
-    "author": {
-        "name": "Felipe Batista da Silva",
-        "email": "felipeb2silva@gmail.com"
-    },
-    "license": "ISC",
-    "dependencies": {
-        "json-server": "^0.17.0",
-        "nodemon": "^2.0.19",
-        "yarn": "^1.22.19"
-    }
+  "name": "json-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Felipeb26/Json-Server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Felipeb26/Json-Server/issues"
+  },
+  "homepage": "https://github.com/Felipeb26/Json-Server#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
 }
